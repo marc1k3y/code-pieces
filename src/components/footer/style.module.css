@@ -1,0 +1,17 @@
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: whitesmoke;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.footerWrapper img {
+  width: 25px;
+  stroke-width: 2px;
+}
