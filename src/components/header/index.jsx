@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <div className={cn.headerWrapper}>
       <div className={cn.logo}>
-        rugram
+        codePiece
       </div>
       <div className={cn.navigation}>
         <div className={cn.add}>

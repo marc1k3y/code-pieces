@@ -7,13 +7,15 @@
   left: 0;
   right: 0;
   height: 50px;
-  background-color: whitesmoke;
+  background-color: rgb(54, 58, 80);
   padding: 0 20px;
+  box-shadow: 0 5px 10px rgb(95, 160, 225);
 }
 
 .logo {
   font-size: 25px;
-  font-family: "bebas";
+  font-weight: bold;
+  color: rgb(95, 160, 225);
 }
 
 .navigation {
@@ -28,10 +30,11 @@
   justify-content: center;
   font-weight: 200;
   font-size: 25px;
-  border: 2px solid black;
+  border: 2px solid rgb(95, 160, 225);
   height: 20px;
   width: 20px;
   border-radius: 5px;
+  color: rgb(95, 160, 225);
 }
 
 .messages {
