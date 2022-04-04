@@ -10,6 +10,7 @@
   background-color: rgb(54, 58, 80);
   padding: 0 20px;
   box-shadow: 0 5px 10px rgb(95, 160, 225);
+  z-index: 200;
 }
 
 .logo {

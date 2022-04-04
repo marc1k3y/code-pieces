@@ -1,0 +1,71 @@
+.postCardWrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  height: 235px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: dodgerblue;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color: yellowgreen;
+  padding: 5px;
+  border-bottom: 2px solid dodgerblue;
+  overflow: scroll;
+  white-space: pre;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: dodgerblue;
+  overflow-y: scroll;
+  max-height: 100px;
+}
+
+.footer::-webkit-scrollbar {
+  display: none;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.comment {
+  background-color: rgb(10, 91, 173);
+  padding: 5px;
+}
+
+.commHeader {
+  color: rgb(73, 158, 244);
+}
